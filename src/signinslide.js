@@ -62,10 +62,10 @@ const useStyles = makeStyles(theme => ({
 
 export default function SignInSide() {
   const classes = useStyles();
+  let history = useHistory();
 
   const onSign = () => {
     debugger;
-    let history = useHistory();
     history.push('/home');
   };
 
