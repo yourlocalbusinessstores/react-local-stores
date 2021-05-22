@@ -64,6 +64,7 @@ export default function SignInSide() {
   const classes = useStyles();
 
   const onSign = () => {
+    debugger;
     let history = useHistory();
     history.push('/home');
   };
@@ -108,11 +109,10 @@ export default function SignInSide() {
               label="Remember me"
             />
             <Button
-              type="submit"
               fullWidth
               variant="contained"
               color="primary"
-              click={() => onSign()}
+              onClick={() => onSign()}
               className={classes.submit}
             >
               Sign In
