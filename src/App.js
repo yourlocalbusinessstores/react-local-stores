@@ -7,7 +7,6 @@ import Home from './home';
 export default function App() {
   return (
     <Fragment>
-      <div />
       <Switch>
         <Route exact path="/">
           <SignInSide />
