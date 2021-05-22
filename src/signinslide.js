@@ -65,7 +65,6 @@ export default function SignInSide() {
   let history = useHistory();
 
   const onSign = () => {
-    debugger;
     history.push('/home');
   };
 
