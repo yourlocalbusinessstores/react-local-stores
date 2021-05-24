@@ -15,6 +15,7 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Copyright from './Copyright';
 import { DropzoneArea } from 'material-ui-dropzone';
+import firebase from 'firebase';
 
 const useStyles = makeStyles(theme => ({
   icon: {
