@@ -4,6 +4,7 @@ import SignInSide from './signinslide';
 import { Route, Switch } from 'react-router-dom';
 import Home from './home';
 import firebase from 'firebase';
+
 export default function App() {
   return (
     <Fragment>
