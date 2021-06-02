@@ -54,7 +54,7 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 export default function Home() {
   const [imageData, setImageData] = useState('');
   const classes = useStyles();
-    // Similar to componentDidMount and componentDidUpdate:
+  // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `You clicked ${count} times`;
